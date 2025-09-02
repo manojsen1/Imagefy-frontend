@@ -7,8 +7,12 @@ function Footer() {
       <img src={assets.logo} alt="" width={150}/>
       <p className='flex-1 border-l-1  border-gray-400 pl-4 text-sm text-gray-500 mx-sm:hidden'>Copyrigth @manojsain.dev | All rigth reserved.</p>
       <div className='flex gap-2.5 '>
-        <img src={assets.facebook_icon} alt="" width={35} />
+       
+
+        <img src={assets.facebook_icon} alt="" width={35}  />
+         <a href="https://www.instagram.com/_ms_2704/" target="_blank" rel="noopener noreferrer">
         <img src={assets.instagram_icon} alt="" width={35} />
+</a>
         <img src={assets.twitter_icon} alt="" width={35} />
      
       
